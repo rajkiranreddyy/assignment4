@@ -1,0 +1,23 @@
+<html ng-app="app">
+    <head>
+        
+        <script src="angular.min.js"></script>
+        <script src="angular-ui-router.min.js"></script>
+        <script src="angular-cookies.js"></script> 
+        <script src="route.js"></script>
+        <script src="restro.service.js"></script>
+        <script src="controller1.controller.js"></script>
+        <script src="itemC.controller.js"></script>
+
+
+    </head>
+    <h2>Welcome</h2>
+	
+   
+    <body>
+        <button><a ui-sref="index">home</a></button>
+        <button><a ui-sref="mainList">category</a></button>
+        
+     <div ui-view></div>    
+    </body>
+    </html>

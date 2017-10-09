@@ -1,0 +1,9 @@
+
+<div ng-controller="controller1 as mainList">
+<p>i m in category</p>
+<table>
+    <tr ng-repeat="x in mainList.list">
+        <td ng-click="mainList.found(x.short_name)"><a ui-sref="item({id:x.short_name})" ng-click="mainList.found(x.short_name)">{{x.name+"-->"}}</a></td>
+    </tr>
+</table>
+</div>
